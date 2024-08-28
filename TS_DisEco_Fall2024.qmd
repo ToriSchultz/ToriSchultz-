@@ -1,0 +1,30 @@
+---
+title: "TS_DisEco_Fall2024"
+author: "Tori Schultz"
+format: html
+editor: visual
+---
+
+### 08/27/2024
+
+Find area of a circle with radius 5 cm.
+
+Formula: ¶ \* r\^2
+
+where r is the radius.
+
+```{r}
+# Function to calculate the area of a circle
+area_of_circle <- function(radius) {
+  area <- pi * radius^2
+  return(area)
+}
+radius <- 5 # from the example
+circle_area <- area_of_circle(radius)
+cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+  
+```
+
+![](images/EpiTriad.png)
+
+This image shows the epidemiology triad of environment, host and pathogen. This is a very simplified figure that demonstrates 3 of the major components of infection. Although this image is helpful to summarize ecology, in reality, ecology is much more complex than this image demonstrates.
